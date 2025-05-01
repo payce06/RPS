@@ -24,3 +24,13 @@ for(let i = 0; i < buttons.length; i++){
         outcomeText.textContent = outcome;
     });
 };
+
+function getWinner(user, computer) {
+    if(user == computer) return "It's a draw!";
+    if(
+        (user == 'rock' && computer == 'scissors') ||
+        (user == 'paper' && computer == 'rock') ||
+        (user == 'scissors' && computer == 'paper')
+    ) return "You win! 🎉";
+    return "You lose!";
+}
