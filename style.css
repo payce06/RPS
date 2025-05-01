@@ -28,3 +28,17 @@ body {
     color: white;
     transition: background 0.3s;
 }
+
+.choices button:hover {
+    background-color: #1769aa;
+}
+
+.result p {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+#outcome {
+    margin-top: 20ps;
+    color: #333;
+}
