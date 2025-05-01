@@ -7,3 +7,12 @@ body {
     align-items: center;
     height: 100vh;
 }
+
+.game {
+    text-align: center;
+    background: #fff;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    width: 350px;
+}
